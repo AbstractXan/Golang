@@ -42,7 +42,7 @@ func getRequest(animalList []Animal){
 	case "speak":
 		animalList[index].Speak()
 	default: 
-		fmt.Println("Oops! our animals could only 'eat', 'move' or 'speak")
+		fmt.Println("Oops! our animals could only 'eat', 'move' or 'speak'")
 		return
 	}
 }
