@@ -12,7 +12,7 @@
 
 ## 2.2.2 Ints, Floats, Strings
 ### Type conversion
-```go
+```golang
 var x int32 = 1
 var y int16 = 2
 x = int32(y)
@@ -39,7 +39,7 @@ Itoa(s) - Int to string
 ParseFloat(s) - String to Float
 
 ## 2.3.1 Constants
-```go
+```golang
 type Grades int
 const (
 	A Grades = iota
@@ -52,7 +52,7 @@ const (
 
 ## 2.3.3 Flow Control
 ### Tagless Switch
-```go
+```golang
 switch {
 	case x > 1:
 		fmt.Printf("case 1")
